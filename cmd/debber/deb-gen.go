@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/debber/debber-v0.3/deb"
-	"github.com/debber/debber-v0.3/debgen"
+	"github.com/koenkooi/debber-v0.3/deb"
+	"github.com/koenkooi/debber-v0.3/debgen"
 	"os"
 	"path/filepath"
 )
@@ -22,7 +22,7 @@ func debGen(input []string) error {
 */
 	//fs.StringVar(&build.sourcesDest, "sources-dest", debgen.DevGoPathDefault+"/src", "directory containing sources.")
 	arches := ""
-	fs.StringVar(&arches, "arch-filter", "", "Filter by Architecture. Comma-separated [386,armhf,amd64,all]")
+	fs.StringVar(&arches, "arch-filter", "", "Filter by Architecture. Comma-separated [386,armhf,arm64,amd64,all]")
 
 //	fs.StringVar(&build.ResourcesGlob, "resources", "", "directory containing resources for this platform")
 	fs.StringVar(&build.Version, "version", "", "Package version")

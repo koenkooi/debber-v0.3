@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/debber/debber-v0.3/debgen"
+	"github.com/koenkooi/debber-v0.3/debgen"
 )
 
 func InitFlagsBasic(name string) *flag.FlagSet {

@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/debber/debber-v0.3/deb"
-	"github.com/debber/debber-v0.3/debgen"
+	"github.com/koenkooi/debber-v0.3/deb"
+	"github.com/koenkooi/debber-v0.3/debgen"
 	"os"
 	"path/filepath"
 )

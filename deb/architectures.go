@@ -33,6 +33,8 @@ const (
 	ArchI386 Architecture = "i386"
 	//ArchArmhf represents ARMv7 (TODO: armel)
 	ArchArmhf Architecture = "armhf"
+	//ArchArm64 represents 64-bit machines.
+	ArchArm64 Architecture = "arm64"
 	//ArchAmd64 represents 64-bit machines.
 	ArchAmd64 Architecture = "amd64"
 	//ArchAll is for binary packages.
@@ -67,11 +69,13 @@ func ResolveArches(arches string) ([]Architecture, error) {
 	}
 
 	if arches == "any" || arches == "" {
-		return []Architecture{ArchI386, ArchArmhf, ArchAmd64}, nil
+		return []Architecture{ArchI386, ArchArmhf, ArchAmd64, ArchArm64}, nil
 	} else if arches == string(ArchI386) {
 		return []Architecture{ArchI386}, nil
 	} else if arches == string(ArchArmhf) {
 		return []Architecture{ArchArmhf}, nil
+	} else if arches == string(ArchArm64) {
+		return []Architecture{ArchArm64}, nil
 	} else if arches == string(ArchAmd64) {
 		return []Architecture{ArchAmd64}, nil
 	} else if arches == string(ArchAll) {

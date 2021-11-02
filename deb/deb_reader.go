@@ -19,7 +19,7 @@ package deb
 import (
 	"archive/tar"
 	"fmt"
-	"github.com/debber/debber-v0.3/targz"
+	"github.com/koenkooi/debber-v0.3/targz"
 	"github.com/laher/argo/ar"
 	"io"
 	"io/ioutil"

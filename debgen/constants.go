@@ -1,7 +1,7 @@
 package debgen
 
 import (
-	"github.com/debber/debber-v0.3/deb"
+	"github.com/koenkooi/debber-v0.3/deb"
 )
 
 const (

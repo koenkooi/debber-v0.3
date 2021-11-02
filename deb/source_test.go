@@ -1,8 +1,8 @@
 package deb_test
 
 import (
-	"github.com/debber/debber-v0.3/deb"
-	"github.com/debber/debber-v0.3/targz"
+	"github.com/koenkooi/debber-v0.3/deb"
+	"github.com/koenkooi/debber-v0.3/targz"
 	"io/ioutil"
 	"log"
 	"path/filepath"

@@ -26,8 +26,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/debber/debber-v0.3/deb"
-	"github.com/debber/debber-v0.3/targz"
+	"github.com/koenkooi/debber-v0.3/deb"
+	"github.com/koenkooi/debber-v0.3/targz"
 )
 
 //DebGenerator generates source packages using templates and some overrideable behaviours

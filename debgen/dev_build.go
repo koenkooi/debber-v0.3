@@ -19,7 +19,7 @@ package debgen
 /*
 import (
 	"fmt"
-	"github.com/debber/debber-v0.3/deb"
+	"github.com/koenkooi/debber-v0.3/deb"
 )
 
 // Default build function for Dev packages.
